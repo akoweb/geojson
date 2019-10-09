@@ -7,7 +7,8 @@ sample
 
 after import https://leafletjs.com/ lib
 
-		
+```ruby
+	
 $.getJSON('db/iran-province.json', function (allprovince) {
 	
 	 
@@ -26,17 +27,9 @@ $.getJSON('db/iran-province.json', function (allprovince) {
 			 L.marker(latlng, {title:allprovince[i].slug, icon:final_icons}).bindPopup( allprovince[i].slug+'<br/>'+allprovince[i].title ).addTo(lay_provinces);
 	 
  
-										
-												
-												
-				}
-				
-				 
-				  
-				 
-				
+ 	}
  
-
 
 });				
 				
+```
