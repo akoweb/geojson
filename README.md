@@ -1,6 +1,6 @@
 # geojson
 province of iran - json data for leafletjs and openstreetmap
-
+# قابل استفاده برای سال 1401 و 1402
 
 sample
 
@@ -33,3 +33,4 @@ $.getJSON('db/iran-province.json', function (allprovince) {
 });				
 				
 ```
+
